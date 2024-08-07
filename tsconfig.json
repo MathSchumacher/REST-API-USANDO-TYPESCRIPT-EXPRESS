@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2019",                                  /* Define a versão do JavaScript para o código gerado e inclui declarações de biblioteca compatíveis. */
+    "module": "commonjs",                                /* Define o módulo como CommonJS, que é o padrão para Node.js. */
+    "moduleResolution": "node",                          /* Usa a resolução de módulo padrão do Node.js. */
+    "rootDir": "src",                                    /* Define o diretório raiz dos arquivos de entrada. */
+    "outDir": "./dist",                                  /* Define o diretório de saída para o código JavaScript compilado. */
+    "removeComments": true,                              /* Remove comentários do código gerado. */
+    "esModuleInterop": true,                             /* Permite a interoperabilidade com módulos CommonJS, como express. */
+    "forceConsistentCasingInFileNames": true,            /* Garante que a capitalização esteja correta nas importações. */
+    "strict": true,                                      /* Habilita todas as opções de verificação de tipo estrita. */
+    "skipLibCheck": true,                                /* Ignora a verificação de tipos em todos os arquivos .d.ts. */
+    "typeRoots": [
+      "./src/@types",                                    /* Diretório para tipos personalizados. */
+      "./node_modules/@types"                            /* Diretório para tipos de pacotes instalados. */
+    ]
+  },
+  "include": ["src/**/*"],                               /* Inclui todos os arquivos na pasta src. */
+  "exclude": ["node_modules", "dist"]                    /* Exclui os diretórios node_modules e dist. */
+}
